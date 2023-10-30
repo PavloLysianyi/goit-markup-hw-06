@@ -185,7 +185,7 @@ img {
   color: #404bbf;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1167.98px) {
+@media only screen and (min-width: 768px) and (max-width: 1158px) {
   .logo {
     margin-right: 120px;
   }
@@ -719,7 +719,6 @@ img {
 @media only screen and (min-width: 768px) {
   .footer-logo {
     margin-left: 0;
-    margin-right: 0;
   }
 }
 
@@ -733,12 +732,6 @@ img {
   row-gap: 72px;
 }
 
-@media only screen and (max-width: 767px) {
-  .footer-container {
-    justify-content: center;
-  }
-}
-
 @media only screen and (min-width: 1158px) {
   .footer-container {
     flex-wrap: nowrap;
@@ -747,13 +740,13 @@ img {
 
 .footer-container-logo {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
   .footer-container-logo {
-    margin-right: 24px;
+    margin: 0;
   }
 }
 
@@ -767,26 +760,27 @@ img {
 .footer-container-social {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-container-social {
+    margin: 0 0 0 24px;
+  }
 }
 
 .footer-subtitle {
   color: #ffffff;
+
+  text-align: center;
   font-size: 16px;
   font-weight: 500;
-  margin: 0 auto;
   margin-bottom: 16px;
 }
 
 @media only screen and (min-width: 768px) {
   .footer-subtitle {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-@media only screen and (min-width: 1158px) {
-  .footer-container-social {
-    margin-bottom: 132px;
+    text-align: start;
   }
 }
 
@@ -858,8 +852,6 @@ img {
 
 .label {
   display: flex;
-  flex-direction: column;
-
   color: #ffffff;
 }
 
@@ -1431,12 +1423,12 @@ input[type="checkbox"]:checked + .form-agreement > .custom-checkbox {
   font-weight: 700;
 }
 
-@media only screen and (min-width: 767.98px) {
+.mobile-socials {
+  gap: 56px;
+}
+
+@media only screen and (min-width: 768px) {
   .menu-container {
     display: none;
   }
-}
-
-.mobile-socials {
-  gap: 56px;
 }
