@@ -686,12 +686,6 @@ img {
   background-color: var(--title-text-color);
 }
 
-@media only screen and (min-width: 768px) {
-  .footer {
-    padding-left: 108px;
-  }
-}
-
 @media only screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
@@ -726,9 +720,16 @@ img {
   row-gap: 72px;
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-container {
+    width: 584px;
+  }
+}
+
 @media only screen and (min-width: 1158px) {
   .footer-container {
     flex-wrap: nowrap;
+    width: 1158px;
   }
 }
 
