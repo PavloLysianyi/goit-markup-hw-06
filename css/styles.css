@@ -661,12 +661,6 @@ img {
   fill: currentColor;
 }
 
-@media only screen and (min-width: 768px) {
-  .customers-icon {
-    margin: 16px 32px;
-  }
-}
-
 .customers-icon:hover,
 .customers-icon:focus {
   fill: #404bbf;
